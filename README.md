@@ -1,3 +1,93 @@
+<div align="center">
+
+<!-- Animated Wave Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:16a34a,100:22c55e&text=Intro%20to%20Machine%20Learning&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Kaggle%20Learn%20Notes%20%7C%20Iowa%20Housing%20%7C%20scikit-learn%20Quick%20Reference&descAlignY=58&descSize=18" />
+
+<!-- Typing Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2600&pause=700&color=16A34A&center=true&vCenter=true&width=940&lines=EDA+with+pandas+%E2%9C%85+Decision+Tree+%E2%9C%85+Random+Forest+%E2%9C%85;Train%2FValidation+Split+%E2%9C%85+MAE+%E2%9C%85+Tuning+max_leaf_nodes+%E2%9C%85;From+first+model+to+Kaggle+submission+%F0%9F%8F%86;Cheat+Sheet+%2B+Troubleshooting+%2B+Resources" />
+
+<br/>
+
+<!-- Hero Image -->
+<img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200&h=280&fit=crop" alt="Machine Learning" width="100%" style="border-radius:14px;" />
+
+<br/><br/>
+
+<b>📘 Intro to Machine Learning — Panduan Lengkap & Referensi Cepat</b><br/>
+<i>Catatan ringkas + contoh kode untuk menyelesaikan course Kaggle Learn “Intro to Machine Learning”.</i><br/><br/>
+
+<!-- Badges -->
+<img src="https://img.shields.io/badge/Python-16a34a?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/pandas-0f172a?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-22c55e?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kaggle-2563eb?style=for-the-badge&logo=kaggle&logoColor=white"/>
+
+<br/><br/>
+
+<p>
+<b>Target:</b> cepat paham alur ML dasar → bikin model pertama → validasi MAE → Random Forest → submit ke Kaggle.
+</p>
+
+</div>
+
+---
+
+## 🧭 Table of Contents
+- [📌 Ringkasan](#-ringkasan)
+- [🚀 Quick Start](#-quick-start)
+- [🧠 Workflow ML Singkat](#-workflow-ml-singkat)
+- [📚 Materi Lengkap](#-materi-lengkap)
+- [✅ License](#-license)
+
+---
+
+## 📌 Ringkasan
+
+Yang kamu dapat dari README ini:
+
+- ✅ Ringkasan setiap lesson (1–7)
+- ✅ Contoh kode siap copy-paste (pandas + scikit-learn)
+- ✅ Cheat sheet, troubleshooting, dan resources
+- ✅ Referensi untuk dataset **Iowa Housing (Ames)**
+
+---
+
+## 🚀 Quick Start
+
+### Opsi 1 — Kaggle Notebooks (paling gampang)
+1. Buka course Kaggle Learn “Intro to Machine Learning”
+2. Jalankan notebook lesson → copy bagian kode dari sini saat perlu
+
+### Opsi 2 — Local Jupyter
+```bash
+pip install pandas scikit-learn numpy matplotlib seaborn jupyter
+jupyter notebook
+```
+
+---
+
+## 🧠 Workflow ML Singkat
+
+```mermaid
+flowchart LR
+  A[Load data] --> B[Explore with pandas]
+  B --> C[Choose target (y) + features (X)]
+  C --> D[Train model]
+  D --> E[Validate with MAE]
+  E --> F[Tune / switch model]
+  F --> G[Train full data]
+  G --> H[Predict test + submit Kaggle]
+```
+
+---
+
+## 📚 Materi Lengkap
+
+<details open>
+<summary><b>📄 Klik untuk lihat catatan lengkap (Full Notes)</b></summary>
+
+<br/>
+
 # Intro to Machine Learning — Panduan Lengkap & Referensi Cepat
 
 **Version:** 1.0  
@@ -924,3 +1014,21 @@ RandomForestRegressor(
 **Contact:** [Your GitHub / Email]
 
 🎉 **Congratulations on completing Intro to Machine Learning! ** 🎉
+
+
+</details>
+
+---
+
+## ✅ License
+
+Dokumentasi ini untuk tujuan edukasi.  
+Kode contoh bebas dipakai dan dimodifikasi.
+
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=1900&pause=700&color=22C55E&center=true&vCenter=true&width=920&lines=Happy+Learning+%F0%9F%9A%80+Build+your+first+model+and+ship+to+Kaggle!" />
+
+</div>
